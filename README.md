@@ -10,7 +10,7 @@ by adding `deluge` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:deluge, "~> 0.1.0"}
+    {:box, git: "https://github.com/nicklayb/deluge_elixir.git", tag: "0.1.0"},
   ]
 end
 ```
